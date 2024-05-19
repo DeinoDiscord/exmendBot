@@ -58,7 +58,7 @@ async def on_message(message):
         async for message in message.channel.history(limit=1):
             text.append(message)
         if text[0].content.endswith("%"):
-            pokemon = remove_percentage((text[0].content).title()
+            pokemon = remove_percentage(text[0].content).title()
             if pokemon in desired:
                 await message.channel.edit(name=pokemon)
                 await asyncio.sleep(2)
