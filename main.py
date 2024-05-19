@@ -41,11 +41,6 @@ def sendText(msg,channel):
         }
         r = requests.post(f"https://discord.com/api/v9/channels/{channel}/messages",data = payload, headers = header) 
 
-def keep_first_line(multiline_string):
-    # Split the multiline string into lines and return the first line
-    first_line = multiline_string.splitlines()[0]
-    return first_line
-
 def remove_percentage(text):
     # Define a regular expression pattern to match the percentage value
     pattern = r':\s*\d+\.\d+%'
@@ -63,7 +58,7 @@ async def on_message(message):
         async for message in message.channel.history(limit=1):
             text.append(message)
         if text[0].content.endswith("%"):
-            pokemon = remove_percentage(keep_first_line(text[0].content)).title()
+            pokemon = remove_percentage((text[0].content).title()
             if pokemon in desired:
                 await message.channel.edit(name=pokemon)
                 await asyncio.sleep(2)
