@@ -8,7 +8,7 @@ import os
 
 kageookimi = os.environ.get("userToken")
 
-desired =  ["bulbasaur", "venusaur", "charmander", "charizard", "squirtle", "blastoise", "Pikachu", "raichu", "vulpix", "ninetales", "ponyta", "gengar", "kangaskhan", "lapras", "scyther", "pinsir", "magikarp", "gyarados", "ditto", "eevee", "vaporeon", "jolteon", "flareon", "aerodactyl", "snorlax", "dragonite", "bayleef", "cyndaquil", "pichu", "politoed", "espeon", "umbreon", "unown", "wobbuffet", "onix", "steelix", "scizor", "heracross", "corsola", "skarmory", "smeargle", "elekid", "miltank", "tyranitar", "torterra", "infernape", "piplup", "pachirisu", "chingling", "bonsly", "mime jr.", "happiny", "chatot", "spiritomb", "gible", "gabite", "garchomp", "munchlax", "riolu", "lucario", "carnivine", "leafeon", "glaceon", "gallade", "rotom", "audino", "maractus", "sigilyph", "zoroark", "deerling", "emolga", "chandelure", "cubchoo", "cryogonal", "druddigon", "frogadier", "greninja", "vivillon", "talonflame", "florges", "skiddo", "gogoat", "furfrou", "espurr", "meowstic", "tyrunt", "aurorus", "sylveon", "hawlucha", "dedenne", "carbink", "goodra", "hydreigon", "klefki", "noibat", "noivern", "oricorio", "rockruff", "lycanroc", "wishiwashi", "stufful", "comfey", "oranguru", "passimian", "pyukumuku", "minior", "komala", "turtonator", "togedemaru", "mimikyu", "drampa", "dhelmise", "kommo-o", "rillaboom", "cinderace", "inteleon", "corviknight", "eldegoss", "wooloo", "appletun", "cramorant", "sinistea", "grimmsnarl", "perrserker", "cursola", "mr. rime", "runerigus","falinks", "pincurchin", "snom", "frosmoth", "stonjourner", "eiscue", "morpeko", "duraludon", "dragapult", "sprigatito", "meowscarada", "fuecoco", "skeledirge", "quaquaval", "tinkaton", "annihilape", "clodsire", "kingambit", "baxcalibur", "Arboliva", "Ponyta", "Finizen", "Tyrunt", "Woobat", "Snover", "Wooper", "Obstagoon", "Porygon", "Poliwag", "Gastly", "Amaura", "Diglett", "Aron", "Zorua", "Phantump", "Mareep", "Dreepy", "Drakloak", "Goomy", "Gardevoir", "Gallade", "Litwick", "Dewpider", "Axew", "Dratini","Ralts", "Tadbulb", "Stunky", "Skuntank", "Glimmet", "Buneary", "Lopunny", "Bellossom", "Vileplume", "Ledian", "Linoone", "Beautifly", "Milotic", "Leavanny", "Cinccino", "Swanna", "Ribombee", "Togedemaru", "Wyrdeer", "azurill", "sableye", "mawile", "plusle", "minun", "torkoal", "spinda", "zangoose", "seviper", "lunatone", "solrock", "kecleon", "chimecho", "tropius", "absol", "wynaut", "relicanth","luvdisc"]
+desired =  ["moltres","bulbasaur", "venusaur", "charmander", "charizard", "squirtle", "blastoise", "Pikachu", "raichu", "vulpix", "ninetales", "ponyta", "gengar", "kangaskhan", "lapras", "scyther", "pinsir", "magikarp", "gyarados", "ditto", "eevee", "vaporeon", "jolteon", "flareon", "aerodactyl", "snorlax", "dragonite", "bayleef", "cyndaquil", "pichu", "politoed", "espeon", "umbreon", "unown", "wobbuffet", "onix", "steelix", "scizor", "heracross", "corsola", "skarmory", "smeargle", "elekid", "miltank", "tyranitar", "torterra", "infernape", "piplup", "pachirisu", "chingling", "bonsly", "mime jr.", "happiny", "chatot", "spiritomb", "gible", "gabite", "garchomp", "munchlax", "riolu", "lucario", "carnivine", "leafeon", "glaceon", "gallade", "rotom", "audino", "maractus", "sigilyph", "zoroark", "deerling", "emolga", "chandelure", "cubchoo", "cryogonal", "druddigon", "frogadier", "greninja", "vivillon", "talonflame", "florges", "skiddo", "gogoat", "furfrou", "espurr", "meowstic", "tyrunt", "aurorus", "sylveon", "hawlucha", "dedenne", "carbink", "goodra", "hydreigon", "klefki", "noibat", "noivern", "oricorio", "rockruff", "lycanroc", "wishiwashi", "stufful", "comfey", "oranguru", "passimian", "pyukumuku", "minior", "komala", "turtonator", "togedemaru", "mimikyu", "drampa", "dhelmise", "kommo-o", "rillaboom", "cinderace", "inteleon", "corviknight", "eldegoss", "wooloo", "appletun", "cramorant", "sinistea", "grimmsnarl", "perrserker", "cursola", "mr. rime", "runerigus","falinks", "pincurchin", "snom", "frosmoth", "stonjourner", "eiscue", "morpeko", "duraludon", "dragapult", "sprigatito", "meowscarada", "fuecoco", "skeledirge", "quaquaval", "tinkaton", "annihilape", "clodsire", "kingambit", "baxcalibur", "Arboliva", "Ponyta", "Finizen", "Tyrunt", "Woobat", "Snover", "Wooper", "Obstagoon", "Porygon", "Poliwag", "Gastly", "Amaura", "Diglett", "Aron", "Zorua", "Phantump", "Mareep", "Dreepy", "Drakloak", "Goomy", "Gardevoir", "Gallade", "Litwick", "Dewpider", "Axew", "Dratini","Ralts", "Tadbulb", "Stunky", "Skuntank", "Glimmet", "Buneary", "Lopunny", "Bellossom", "Vileplume", "Ledian", "Linoone", "Beautifly", "Milotic", "Leavanny", "Cinccino", "Swanna", "Ribombee", "Togedemaru", "Wyrdeer", "azurill", "sableye", "mawile", "plusle", "minun", "torkoal", "spinda", "zangoose", "seviper", "lunatone", "solrock", "kecleon", "chimecho", "tropius", "absol", "wynaut", "relicanth","luvdisc"]
 client = commands.Bot(command_prefix=".", intents=discord.Intents.all())
 @client.event
 async def on_ready():
@@ -41,6 +41,11 @@ def sendText(msg,channel):
         }
         r = requests.post(f"https://discord.com/api/v9/channels/{channel}/messages",data = payload, headers = header) 
 
+def keep_first_line(multiline_string):
+    # Split the multiline string into lines and return the first line
+    first_line = multiline_string.splitlines()[0]
+    return first_line
+
 def remove_percentage(text):
     # Define a regular expression pattern to match the percentage value
     pattern = r':\s*\d+\.\d+%'
@@ -58,7 +63,7 @@ async def on_message(message):
         async for message in message.channel.history(limit=1):
             text.append(message)
         if text[0].content.endswith("%"):
-            pokemon = remove_percentage(text[0].content).title()
+            pokemon = remove_percentage(keep_first_line(text[0].content)).title()
             if pokemon in desired:
                 await message.channel.edit(name=pokemon)
                 await asyncio.sleep(2)
